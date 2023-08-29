@@ -1,0 +1,24 @@
+Block exampleBlock = new Block("exampleBlock.jpg");
+Resource backgroundPicture = new Resource("backgroundPicture.png");
+
+struct Credits = {
+	Author => "Antian",
+	Release => "05/25/15"
+};
+
+struct Information = {
+	Width => 10,
+	Height => 10,
+	InitialX => 1,
+	InitialY => 6,
+	Background => backgroundPicture
+	//Background => 0xFF0099FF
+};
+
+struct Level = {
+	0 => T,
+	1 => {
+		5 => exampleBlock,
+		6 => exampleBlock
+	},
+}

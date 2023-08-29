@@ -1,0 +1,18 @@
+Data {
+	Author=ExampleAuthor
+	Release=27/10/2013
+	Width=10
+	Height=10
+	SpawnX=1
+	SpawnY=6
+	TestBlock=testBlock.jpg
+	BackgroundColor=0xFF0099FF
+}
+
+Struct {
+	0=TestBlock
+	1 {
+		5=TestBlock
+		6=TestBlock
+	}
+}
